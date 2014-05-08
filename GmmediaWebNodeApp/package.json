@@ -2,7 +2,7 @@
   "name": "GmmediaWebNodeApp",
   "version": "0.0.0",
   "description": "GmmediaWebNodeApp",
-  "main": "server.js",
+  "main": "app.js",
   "author": {
     "name": "michal",
     "email": ""
