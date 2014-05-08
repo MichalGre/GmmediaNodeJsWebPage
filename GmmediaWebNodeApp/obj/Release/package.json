@@ -1,0 +1,10 @@
+{
+  "name": "GmmediaWebNodeApp",
+  "version": "0.0.0",
+  "description": "GmmediaWebNodeApp",
+  "main": "server.js",
+  "author": {
+    "name": "michal",
+    "email": ""
+  }
+}

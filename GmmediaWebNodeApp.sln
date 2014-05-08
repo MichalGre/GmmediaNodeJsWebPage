@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GmmediaWebNodeApp", "GmmediaWebNodeApp\GmmediaWebNodeApp.njsproj", "{2DEAF6C4-3E7C-4693-9F2E-E7A82EB167BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DEAF6C4-3E7C-4693-9F2E-E7A82EB167BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEAF6C4-3E7C-4693-9F2E-E7A82EB167BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEAF6C4-3E7C-4693-9F2E-E7A82EB167BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEAF6C4-3E7C-4693-9F2E-E7A82EB167BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
