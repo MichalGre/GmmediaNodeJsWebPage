@@ -13,7 +13,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2deaf6c4-3e7c-4693-9f2e-e7a82eb167be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>app.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,8 +31,40 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="server.js" />
+    <Compile Include="app.js" />
+    <Compile Include="public\js\libs\jquery.easytabs.min.js" />
+    <Compile Include="public\js\libs\jquery.prettyPhoto.js" />
+    <Compile Include="public\js\libs\jquery.validate.min.js" />
+    <Compile Include="public\js\libs\respond.min.js" />
+    <Compile Include="public\js\script.js" />
+    <Compile Include="Routes\index.js" />
     <None Include="gmmedia.pubxml" />
+    <Content Include="public\css\elements.css" />
+    <Content Include="public\css\grid.css" />
+    <Content Include="public\css\prettyPhoto.css" />
+    <Content Include="public\css\style.css" />
+    <Content Include="public\fonts\entypo-webfont.eot" />
+    <Content Include="public\fonts\entypo-webfont.svg" />
+    <Content Include="public\fonts\entypo-webfont.ttf" />
+    <Content Include="public\fonts\entypo-webfont.woff" />
+    <Content Include="public\img\bg_blue.png" />
+    <Content Include="public\img\bigimage.jpg" />
+    <Content Include="public\img\blogpostimage.jpg" />
+    <Content Include="public\img\button_menu%402x.png" />
+    <Content Include="public\img\button_menu.png" />
+    <Content Include="public\img\facebook.png" />
+    <Content Include="public\img\linkedin.png" />
+    <Content Include="public\img\mail.png" />
+    <Content Include="public\img\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="public\img\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="public\img\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="public\img\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="public\img\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="public\img\smallimage.jpg" />
+    <Content Include="public\img\twitter.png" />
+    <Content Include="public\img\yourcontactimage.jpg" />
+    <Content Include="public\img\yourphoto.jpg" />
+    <Content Include="public\index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="bin\ChangeConfig.ps1" />
@@ -44,6 +76,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="public\" />
+    <Folder Include="public\css\" />
+    <Folder Include="public\fonts\" />
+    <Folder Include="public\img\" />
+    <Folder Include="public\img\prettyPhoto\" />
+    <Folder Include="public\img\prettyPhoto\light_rounded\" />
+    <Folder Include="public\js\" />
+    <Folder Include="public\js\libs\" />
+    <Folder Include="Routes\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
