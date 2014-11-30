@@ -1,4 +1,5 @@
 ﻿# GmmediaWebNodeApp
 
-  a 
+  Mała zmiana
+  
   
