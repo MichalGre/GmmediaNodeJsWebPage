@@ -15,7 +15,7 @@ app.set('port', port);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(express.static(path.join(__dirname, 'public')));
-
+ 
 app.get('/', routes.index);
 
 http.createServer(app).listen(app.get('port'), function(){

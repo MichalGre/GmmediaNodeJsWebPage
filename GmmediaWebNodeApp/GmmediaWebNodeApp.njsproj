@@ -13,7 +13,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2deaf6c4-3e7c-4693-9f2e-e7a82eb167be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>server.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,7 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app.js" />
+    <Compile Include="server.js" />
     <Compile Include="public\js\libs\jquery.easytabs.min.js" />
     <Compile Include="public\js\libs\jquery.prettyPhoto.js" />
     <Compile Include="public\js\libs\jquery.validate.min.js" />
