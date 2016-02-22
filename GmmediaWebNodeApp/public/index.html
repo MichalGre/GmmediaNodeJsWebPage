@@ -22,9 +22,9 @@
       <div class="menu"> 
         <ul>
           <li id="default"><a href="#homepage">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#resume">O mnie</a></li>
+          <li style="display:none"><a href="#portfolio">Portfolio</a></li>
+          <li><a style="display:none" href="#blog">Blog</a></li>
+          <li><a style="display:none" href="#resume">O mnie</a></li>
           <li><a href="#contact">Kontakt</a></li>
         </ul>
       </div>
@@ -39,13 +39,13 @@
       <div class="container">
         <div class="three columns">       
           <div class="frame">
-            <img src="img/yourphoto.jpg">
+              <img src="img/1918338.jpg">
           </div>
         </div>
         
         <div class="five columns">
           <h1>Programista</h1>
-          <p><strong>Cześć, nazywam się Michał Grędziak. Od 6 lat zamuję się tworzeniem oprogramowania w oparciu o technologię .NET. Ostatnie 4 lata spędziłem na tworzeniu oprogramowania w sektorze Bussiness Inteligence. 
+          <p><strong>Cześć, nazywam się Michał Grędziak. Od 8 lat zamuję się tworzeniem oprogramowania w oparciu o technologię .NET. Ostatnie 4 lata spędziłem na tworzeniu oprogramowania w sektorze Bussiness Inteligence. 
             Mieszkam i pracuję w Warszawie.
           </strong></p>
           <p> Na co dzień zajmuję się rozwojem systemów w technologii .NET, w szczególnośći ASP.NET MVC, WPF, Javascript. Pasjonuję się nowymi rozwiązaniami technologicznymi - w szczególnościtymi rozproszonymi w chmurze oraz Computer Vision.  </p>
@@ -67,7 +67,7 @@
 
 
      <!-- PORTFOLIO -->
-     <div class="wrapper portfolio" id="portfolio">
+     <div class="wrapper portfolio " id="portfolio">
       <span class="big-text">portfolio</span>
       <div class="container">
         <div class="twelve columns slogan">
@@ -217,7 +217,7 @@
               </div>
             </div>
 
-            <a href="link to your resume"><button class="big">Moje CV</button></a>
+            <a href="#link_do_cv"><button class="big">Moje CV</button></a>
           </div>
         </div>
       </div>
@@ -229,30 +229,30 @@
       <span class="big-text">contact</span>
       <div class="container">
         <div class="twelve columns">
-          <div class="map"><img src="img/yourcontactimage.jpg"></div>
+          <!--<div class="map"><img src="img/yourcontactimage.jpg"></div>-->
         </div>
         <div class="four columns">
-          <h5>Contact info</h5>
+          <h5>Kontakt</h5>
           <ul>
-            <li><strong>Name:</strong> Your name</li>
-            <li><strong>Address:</strong> Your address</li>
-            <li><strong>E-mail:</strong> you@youremail</li>
-            <li><strong>Phone:</strong> Your phone number</li>
+            <!--<li><strong>Name:</strong>Michał Grędziak</li>-->
+            <!--<li><strong>Address:</strong> Your address</li>-->
+            <li><strong>E-mail:</strong> mgredziak@gmail.com</li>
+            <!--<li><strong>Phone:</strong> Your phone number</li>-->
           </ul>
 
         </div>
         <div class="eight columns">
           <form method="post" action="send.php" id="contactform">
-            <label for="name">Name:</label>
+            <label for="name">Imię i nazwisko:</label>
             <input type="text" name="name" id="name" class="required" />
             
             <label for="email">Email:</label>
             <input type="text" name="email" id="email" class="required email"/>
             
-            <label for="message">Message:</label>
+            <label for="message">Wiadomość:</label>
             <textarea name="message" id="message" class="required"></textarea>
 
-            <button type="submit" name="submit" value="Submit" class="submit-button">Send message</button>
+            <button type="submit" name="submit" value="Submit" class="submit-button">Wyślij wiadomość</button>
           </form>
         </div>
 
@@ -262,7 +262,7 @@
 
     <!-- FOOTER -->
     <div class="footer">
-      Copyright 2012 Your name
+      Copyright 2015 Michał Grędziak
     </div>
 
   </div>
